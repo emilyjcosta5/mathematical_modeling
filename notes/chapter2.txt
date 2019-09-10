@@ -11,4 +11,9 @@ Topics
 4. Citation network
 
 2.1 Laws of Quarter Powers
+Allometric Law (not linear growth)
+ex. strength in animals, lifespan of animals relative to size
 
+1932: Max Kleiber (1893-1976) UC. Davis loglog plot of the resting metabolic rate of various animals and birds and their mass, M (in kg).
+
+loglog plot: has logarithmic scale for both x and y.
