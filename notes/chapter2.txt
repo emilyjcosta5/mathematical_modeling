@@ -1,0 +1,14 @@
+Scaling laws of lide
+The internet
+Social Networks
+Required Math: loglogplot, Geometric series, probability, binomial expansion
+New Math: self-similarity, first order DE with variable coefficient, solution by iteration, data filling (linear case)
+
+Topics
+1. Laws od quarter powers
+2. Vascular blood network
+3. World wide web (WWW)
+4. Citation network
+
+2.1 Laws of Quarter Powers
+
