@@ -1,6 +1,0 @@
-1. A man whose end was approaching summoned his sons and said, "Divide my money as I shall prescribe." To his eldest son, he said, "you are to have 1 bezant and a seventh of what is left." To his second son, he said, "Take 2 bezants and a seventh of what remains." To the third son, he said, "You are to take 3 bezants and a seventh of what is left." Thus he gave each son 1 bezant more than the previous son and a seventh of what remained, and to the last son all that was left. After following their father's instructions with care, the sons found that they had shared their inheritance equally. How many sons were there, and how large was the estate?
-
-2. a. Show Golden Ratio continued fraction. (hint: x^2 = x + 1 satisfies Golden Ratio, use x = 1 + 1/x)
-   b. Show sqrt(2) continued fraction. (hint: x^2 = 2x + 1 satisfies sqrt(2))
-
-4. Eagles fly in a trajectory keeping the same angle, 40 degrees, between its tangent and the direct line to the prey. Show that the requirement of constant angles yields a trajectory that is in the form of a logarithmic spiral, r=a*e^(b*theta), where r is the radial distance to the prey and theta is the azimuthal angle.
