@@ -17,3 +17,11 @@ ex. strength in animals, lifespan of animals relative to size
 1932: Max Kleiber (1893-1976) UC. Davis loglog plot of the resting metabolic rate of various animals and birds and their mass, M (in kg).
 
 loglog plot: has logarithmic scale for both x and y.
+
+suggested reading: Robust Regression (Huber Estimator).
+
+See image 1 in images
+
+Answer:
+
+See image 2 in images
