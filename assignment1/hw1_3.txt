@@ -5,13 +5,14 @@
 
 4. Eagles fly in a trajectory keeping the same angle, 40 degrees, between its tangent and the direct line to the prey. Show that the requirement of constant angles yields a trajectory that is in the form of a logarithmic spiral, r=a*e^(b*theta), where r is the radial distance to the prey and theta is the azimuthal angle.
 
-1. First, solve for the total estate by finding the first and second sons' inheritance. Let x represent the total of the estate.
-First son: x-(1+(x-1)/7) = (6/7)(x-1)
-Second son: 2+(1/7)((6/7)(x-1)-2) = (6/7)((x/7)+(13/7))
-By setting these two equations equal to each other and solving for x, we get that the total estate is 36 bezants.
-Now, to figure out how many sons, we figure out the size of the first son's inheritance then divide the total estate by that number (as it is divided equally).
-First son: 1+(36-1)/7 = 6 bezants
-Total sons: 36/6 = 6 total sons 
+1. 
+  i.   Solve for the total estate by finding the first and second sons' inheritance. Let x represent the total of the estate.
+  First son: x-(1+(x-1)/7) = (6/7)(x-1)
+  Second son: 2+(1/7)((6/7)(x-1)-2) = (6/7)((x/7)+(13/7))
+  ii.  Set the two equations equal to each other and solve for x. We get that x = 36, or the total estate is 36 bezants.
+  iii. Now, to figure out how many sons, we figure out the size of the first son's inheritance then divide the total estate by that number (as it is divided equally).
+  First son: 1+(36-1)/7 = 6 bezants
+  Total sons: 36/6 = 6 total sons 
 
 2.
   a. As the Golden Ratio can be expressed as x = 1 + 1/x, we can continuously plug in x to the right hand side as such: 
