@@ -42,7 +42,7 @@ c. 2q_(n+1) - 7q_n + 3q_(n-1) = 0 , q_0 = 1 , q_1 = 2
 
   Solution: q_n = (3/5)*3^n + (2/5)(1/2)^n 
 
-d. 2q_(n+1) - 7q_n + 3q_(n-1) = 2 , q_0 = 1 , q_1 = 2
+d. 2q_(n+1) - 7q_n + 3q_(n-1) = 2 + 2^n , q_0 = 1 , q_1 = 2
 
   i.   Create auxiliary equation:
   2x^2 - 7x + 3 = 0
@@ -50,7 +50,10 @@ d. 2q_(n+1) - 7q_n + 3q_(n-1) = 2 , q_0 = 1 , q_1 = 2
   (2x-1)(x-3) = 0
   iii. Solve for x:
   x = (1/2), 3
-  iv.  
+  iv.  Create a system of equations:
+  y(0) = 1 = 
+  y(1) = 2 = 
+  q_n = c_1*e^(n/2) + c_2*e^(3x) + 2/3  
   
 
 
