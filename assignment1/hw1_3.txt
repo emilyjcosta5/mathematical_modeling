@@ -7,9 +7,10 @@
 
 1. 
   i.   Solve for the total estate by finding the first and second sons' inheritance. Let x represent the total of the estate.
-  First son: x-(1+(x-1)/7) = (6/7)(x-1)
-  Second son: 2+(1/7)((6/7)(x-1)-2) = (6/7)((x/7)+(13/7))
-  ii.  Set the two equations equal to each other and solve for x. We get that x = 36, or the total estate is 36 bezants.
+  (a) First son: 1+(x-1)/7
+  (b) Leftover inheritance from first son: x-(1+(x-1)/7) = (6/7)(x-1)
+  (c) Second son: 2+(((b)-2)/7)2+(1/7)((6/7)(x-1)-2) = (6/7)((x/7)+(13/7))
+  ii.  Set the two equations, (a) and (c), equal to each other and solve for x. We get that x = 36, or the total estate is 36 bezants.
   iii. Now, to figure out how many sons, we figure out the size of the first son's inheritance then divide the total estate by that number (as it is divided equally).
   First son: 1+(36-1)/7 = 6 bezants
   Total sons: 36/6 = 6 total sons 
