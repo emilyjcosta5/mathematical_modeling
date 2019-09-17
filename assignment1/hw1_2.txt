@@ -1,0 +1,24 @@
+**Steps for solving cubic polynomial.**
+1. Set P(n) = f_n
+2. Create a system of equations
+   f_0 = P(0) = c_0                       = 1
+   f_1 = P(1) = c_0 + c_1  + c_2  + c_3   = 1
+   f_2 = P(2) = c_0 + 2c_1 + 4c_2 + 8c_3  = 2
+   f_3 = P(3) = c_0 + 3c_1 + 9c_2 + 27c_3 = 3
+3. From this system, plug into a matrix.
+   [[1, 0, 0, 0,  1]
+    [1, 1, 1, 1,  1]
+    [1, 2, 4, 8,  2]
+    [1, 3, 9, 27, 3]]
+3. Now, convert matrix to reduced row echelon form to solve for "variables".
+   [[1, 0, 0, 0, 1   ]
+    [0, 1, 0, 0, -5/6]
+    [0, 0, 1, 0, 1   ]
+    [0, 0, 0, 1, -1/6]]
+4. Finally, plug in constants, now known, into the original equation.
+   P(n) = 1 - (5/6)n + n^2 - (1/6)n^3
+
+**Do the scientists have the correct model?**
+The first scientist does potentially have the correct model, as he observed a logical growth of the branches. 
+However, the second scientist does not have the correct model. This is because the variable of the highest order has a negative coefficient, so eventually the model will predict a negative number of branches, which is impossible. For example, if you set n = 7, P(n=7) = -13.
+
