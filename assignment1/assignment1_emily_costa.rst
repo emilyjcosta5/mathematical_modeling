@@ -1,15 +1,18 @@
 Assignment 1
 ------------
 Author: Emily Costa
+
 Created on: 08/17/2019
 ~~~~~~~~~~~~~~~~~~~~~~~
 
 **1** 
+
 Crystallographic structures are a microscopic mathematical phenomena. A scanning probe is necessary to capture their structures. Though there is noise collected in the data, pseudo-symmetries can be analyzed mathematically once the noise is filtered. I would imagine the analytical approach to classification of the crystallographic images into space groups would require linear algebra. This analysis actually presents a big issue to the materials science community, as the analytical approach is extremely computationally heavy. Nowdays, scientists are working on resolving this problem by leveraging and improving machine learning techniques. 
 
 Another example would be the study of the polarization of political parties in a bipartisan state. This falls under the field of complexity, as the systems require nonlinear mathematical modeling. To model this phenomena, differential equations are used. 
 
 **2** 
+
 **Steps for solving cubic polynomial.**
 1. Set P(n) = f_n
 2. Create a system of equations
@@ -35,6 +38,7 @@ The first scientist does potentially have the correct model, as he observed a lo
 However, the second scientist does not have the correct model. This is because the variable of the highest order has a negative coefficient, so eventually the model will predict a negative number of branches, which is impossible. For example, if you set n = 7, P(n=7) = -13.
 
 **3**
+
 1.
   i.   Solve for the total estate by finding the first and second sons' inheritance. Let x represent the total of the estate.
   (a) First son: 1+(x-1)/7
@@ -92,6 +96,7 @@ However, the second scientist does not have the correct model. This is because t
   r = a*e^(b*x), which is the expected equation at the beginning.
 
 **4**
+
 a. 2x_n - 5x_(n-1) = 0 , x_0 = 2
 
   i.   Make equation for next iteration:
@@ -144,9 +149,17 @@ d. 2q_(n+1) - 7q_n + 3q_(n-1) = 2 + 2^n , q_0 = 1 , q_1 = 2
   (2x-1)(x-3) = 0
   iii. Solve for x:
   x = (1/2), 3
-  iv.  Create a system of equations:
+  iv.  Create a system of equations and solve to get the general equation:
   y(0) = 1 =
   y(1) = 2 =
-  q_n = c_1*e^(n/2) + c_2*e^(3x) + 2/3
+  v.   Find the equation for the particular solution and plug into original equation:
+  q_n = 2A + B*2^n
+  2(2A+B*2^n)-7(2*A+B*2^(n-1))+3(2A+B2^(n-2)) = 2 + 2^n
+  vi. Solve for A and B to find final solution:
+  A = -1
+  B = -4/3
+  
+  Solution: q_n = -2-(4/3)(2^n)
+  
 
 
