@@ -13,8 +13,30 @@ Now, to figure out how many sons, we figure out the size of the first son's inhe
 First son: 1+(36-1)/7 = 6 bezants
 Total sons: 36/6 = 6 total sons 
 
-2.a. As the Golden Ratio can be expressed as x = 1 + 1/x, we can conitnuously plug in x to the right hand side as such: 
-1+(1/(1+1/(1+1/1+/1...)))
-b. 
+2.
+  a. As the Golden Ratio can be expressed as x = 1 + 1/x, we can continuously plug in x to the right hand side as such: 
+  phi = 1+(1/(1+1/(1+1/1+1/...)))
 
+  1 + 1
+     ---
+    1 + 1
+       ---
+      1 + 1
+         ---
+        1 + 1
+           ---
+           ...
+
+  b. sqrt(2) can be expressed as x = 2 + 1/x, so we can also continuously plus in x to the right hand side as suchL
+  sqrt(2) = 2+(1/(2+1/(2+1/(2+1/...)))) 
+
+  2 + 1
+     ---
+    2 + 1
+       ---
+      2 + 1
+         ---
+        2 + 1
+           ---
+           ...
 
