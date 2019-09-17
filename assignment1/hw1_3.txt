@@ -41,3 +41,12 @@
            ---
            ...
 
+3.
+  i. Let x be equivalent to theta. 
+  Then, r = a*e^(b*x)
+  ii. Take the derivative of r with respect to x.
+  dr/dx = b*a*e^(b*x)
+  iii. 
+  
+  
+
