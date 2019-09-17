@@ -42,11 +42,23 @@
            ...
 
 3.
-  i. Let x be equivalent to theta. 
+  i.   Let x be equivalent to theta. 
   Then, r = a*e^(b*x)
-  ii. Take the derivative of r with respect to x.
+  ii.  Take the derivative of r with respect to x.
   dr/dx = b*a*e^(b*x)
-  iii. 
+  so,
+  dr/dx = b*r
+  iii. By deduction from the picture, We can find:
+  cot(w) = dr/ds
+  iv.  We know ds = r*(dx) because s = r*x and we can differentiate.
+  v.   Combining (iii.) and (iv.), we find:
+  cot(w) = dr/(r*dx)
+  vi.  By rewriting and integrating (v.), we find:
+  ln(r) = cot(w)*x + C
+  vii. From (vi.), we raise both sides to power of e and rewrite:
+  r = e^(b*x)*C
+  vii. Let a be an arbitrary constant, so (vii.) can be rewritten as:
+  r = a*e^(b*x), which is the expected equation at the beginning.
   
   
 
