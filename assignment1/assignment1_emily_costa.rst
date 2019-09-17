@@ -62,7 +62,7 @@ However, the second scientist does not have the correct model. This is because t
          ---
         1 + 1
            ---
-           ...
+           etc.
 
   b. sqrt(2) can be expressed as x = 2 + 1/x, so we can also continuously plus in x to the right hand side as suchL
   sqrt(2) = 2+(1/(2+1/(2+1/(2+1/...))))
@@ -75,7 +75,7 @@ However, the second scientist does not have the correct model. This is because t
          ---
         2 + 1
            ---
-           ...
+           etc.
 
 3. 
 `Image<https://github.com/emilyjcosta5/mathematical_modeling/blob/master/assignment1/hw1_3.png/>`_
