@@ -1,7 +1,6 @@
 ------------
 Assignment 1
 ------------
-~~~~~~~~~~~~~~~~~~~~~~
 Author: Emily Costa
 
 Created on: 08/17/2019
