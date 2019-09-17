@@ -76,7 +76,8 @@ However, the second scientist does not have the correct model. This is because t
            ---
            ...
 
-3.
+3. 
+`Image<https://github.com/emilyjcosta5/mathematical_modeling/blob/master/assignment1/hw1_3.png/>`_
   i.   Let x be equivalent to theta.
   Then, r = a*e^(b*x)
   ii.  Take the derivative of r with respect to x.
