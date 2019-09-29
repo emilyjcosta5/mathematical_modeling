@@ -43,10 +43,9 @@ plot(x,log(y),main="Linearized")
 
 # Visualize results
 #library(dvir)
-exp <- expression(y=2.59*e^(-0.99*x))
 print(exp)
 # Plotting graph with fitted line
 y <- 2.59*exp(-0.99*x)
 #plot
-plot(x,y,main=paste("Line Fitted to y=",exp))
+plot(x,y,main=expression(paste("Line Fitted to y=",2.59*e^(-0.99*x))))
 lines(x, y, lty=2, col='red', lwd=3)
